@@ -1,29 +1,28 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Arquivos compilados
+*.class
+*.jar
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Diretórios de build
+/target/
+/bin/
+/out/
+/build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# Configurações de IDE
+.idea/
+*.iml
 .vscode/
 
-### Mac OS ###
+# Arquivos do sistema
 .DS_Store
+Thumbs.db
+
+# Arquivos de banco de dados locais
+*.db
+*.sql
+
+# Arquivos de log
+*.log
+
+# Exceção - arquivo de configuração do banco (usar .example em produção)
+!db.properties.example
